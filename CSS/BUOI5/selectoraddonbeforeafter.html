@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Before After Selector</title>
+</head>
+
+<body>
+	<style>
+		h2:before{
+			content: "Trước";
+			color: red;
+		}
+		h2:after{
+			content: "Sau";
+			color: blue;
+		}
+		.ul {
+			width: 5px;
+		}
+		.list-post a:after {
+			content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flag_of_the_Communist_Party_of_Vietnam.svg/270px-Flag_of_the_Communist_Party_of_Vietnam.svg.png");
+		
+		}
+
+	</style>
+	<h2>✪Before After Selector✪</h2>
+
+	<ul class="list-post">
+		<li><a href="" class="">Bài viết số 1</li>
+		<li><a href="" class="">Bài viết số 2</li>
+		<li><a href="" class="">Bài viết số 3</li>
+		<li><a href="" class="">Bài viết số 4</li>
+		
+	</ul>
+	
+</body>
+
+</html>

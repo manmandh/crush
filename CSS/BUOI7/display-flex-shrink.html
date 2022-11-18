@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Display Flex Shrink</title>
+</head>
+<body>
+	<style>
+		.container{
+		    background-color:  blanchedalmond;
+		    display: flex;
+        }
+	    .flex-item{
+	    	background-color: tomato;
+	    	padding: 30px;
+	    	width: 400px;
+	    	margin: 10px;
+	    	font-size: 18px;
+	    	text-align: center;
+	    	color: #fff;
+	    	flex-basis: auto;
+	    }
+	    .item-1{
+	    	flex-basis: 200px;
+	    	flex-shrink: 1;
+	    }
+	    .item-2{
+	    	flex-basis: 400px;
+	    	flex-shrink: 2;
+	    }
+	    
+        
+	</style>
+    <h1>Display Flex Shrink</h1>
+	<div class="container">
+		<div class="flex-item item-1">1</div>
+		<div class="flex-item item-2">2</div>
+		
+	</div>
+	
+</body>
+</html>

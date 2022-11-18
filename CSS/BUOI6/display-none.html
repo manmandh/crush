@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Display none</title>
+</head>
+<body>
+	<style>
+	
+		ul.sub-menu {
+			display: none;
+
+		}
+		ul.sub-menu2 {
+			display: none;
+		}
+		ul#main-menu li:hover  ul.sub-menu {
+			display: block;
+		}
+		ul#main-menu li:hover  ul.sub-menu2 {
+			display: block;
+		}
+
+
+	</style>
+	<h1>Display none</h1>
+
+	<ul id="main-menu">
+		<li><a href="">Trang chủ</a></li>
+		<li><a href="">Giới thiệu</a></li>
+		<li><a href="">Sản phẩm</a>
+		    <ul class="sub-menu">
+		    	<li><a href="">Giày</a></li>
+		    	<li><a href="">Túi xách</a></li>
+		    </ul>
+		</li>
+		<li><a href="">Liên hệ</a>
+		    <ul class="sub-menu2">
+		    	<li><a href="">President</a></li>
+		    	<li><a href="">Vice president</a></li>
+		    </ul>
+		</li>
+	</ul>
+		
+
+	
+</body>
+</html>

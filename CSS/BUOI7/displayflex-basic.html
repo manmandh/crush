@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Display Flex Basic</title>
+</head>
+<body>
+	<style>
+		.container{
+		background-color:  blanchedalmond;
+		display: flex;
+		flex-wrap: wrap;
+	    }
+	    .flex-item{
+	    	background-color: tomato;
+	    	padding: 30px;
+	    	width: 400px;
+	    	margin: 10px;
+	    	font-size: 18px;
+	    	text-align: center;
+	    	color: #fff;
+	    	flex-basis: auto;
+	    }
+	    .item-1{
+	    	order: 1;
+        }
+        .item-3{
+        	order: 2;
+        	flex-basis: 50%;
+        }
+        .item-2{
+        	order: -1;
+        }
+        .item-4{
+        	order: 4;
+        }
+	</style>
+    <h1>Display Flex Basic</h1>
+	<div class="container">
+		<div class="flex-item item-1">1</div>
+		<div class="flex-item item-2">2</div>
+		<div class="flex-item item-3">3</div>
+		<div class="flex-item item-4">4</div>
+	</div>
+	
+	
+</body>
+</html>

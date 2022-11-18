@@ -1,0 +1,15 @@
+h1 {
+	color: greenyellow;
+}
+
+.post-title {
+	color: hotpink;
+
+}
+
+#home-title{
+	color: khaki;
+}
+h1#home-title{
+	color: lightgreen;
+}

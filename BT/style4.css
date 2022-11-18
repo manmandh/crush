@@ -1,0 +1,41 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/*body{
+	width: 960px;
+	margin: 0 auto;
+	min-height: 700px;
+
+}*/
+.content{
+	display: flex;
+	background-color: #97FFFF;
+	width: 960px;
+	margin: 0 auto;
+	height: 700px;
+}
+.content .a1 img{
+	width: 100%;
+}
+.content .a1 img:hover{
+	width: 120%;
+
+}
+.a1 h2{
+	text-transform: uppercase;
+}
+.a2{
+    padding: 0 14px;
+
+}
+.a2 h2{
+	text-transform: uppercase;
+}
+.a3{
+
+}
+.a3 h2{
+	text-transform: uppercase;
+}
